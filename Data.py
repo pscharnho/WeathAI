@@ -8,6 +8,8 @@ import zipfile
 from ftplib import FTP
 import sqlite3
 from sqlite3 import Error
+#from sklearn.utils import shuffle
+#import sklearn
  
  
 def create_connection(db_file):
@@ -24,12 +26,12 @@ def create_connection(db_file):
 def initialize_db(db_file):
     conn = sqlite3.connect(db_file)
     c = conn.cursor()
-    c.execute(""" CREATE TABLE IF NOT EXISTS magdeburg (
+    c.execute(""" CREATE TABLE IF NOT EXISTS Magdeburg (
                                        date INTEGER PRIMARY KEY,
                                        min_temp REAL,
                                        max_temp REAL
                                    ); """)
-    c.execute(""" CREATE TABLE IF NOT EXISTS lausanne (
+    c.execute(""" CREATE TABLE IF NOT EXISTS Lausanne (
                                        date INTEGER PRIMARY KEY,
                                        min_temp REAL,
                                        max_temp REAL
@@ -79,9 +81,9 @@ def get_new_data():
         for _, _, files in os.walk('Data/md/'):
             for name in files:
                 os.remove('Data/md/'+name)
-        ftp = FTP("ftp-cdc.dwd.de")
+        ftp = FTP("opendata.dwd.de")#ftp://ftp-cdc.dwd.de/pup/CDC
         ftp.login()
-        ftp.cwd("/pub/CDC/observations_germany/climate/daily/kl/recent/")
+        ftp.cwd("/climate_environment/CDC/observations_germany/climate/daily/kl/recent/")#/
         filename = "tageswerte_KL_03126_akt.zip"
         tempfile = 'Data/md.zip'
         with open(tempfile, 'wb') as f:
@@ -98,11 +100,11 @@ def get_new_data():
     return None
 
 
-def insert_temps(db_file, dbname, date, mintemp, maxtemp, conn=None):
+def insert_temps(db_file, table_name, date, mintemp, maxtemp, conn=None):
     if conn == None:
         conn = sqlite3.connect(db_file)
     c = conn.cursor()
-    c.execute(" INSERT INTO " + dbname + "(date, min_temp, max_temp) VALUES(?,?,?) ", (date, mintemp, maxtemp))
+    c.execute(" INSERT INTO " + table_name + "(date, min_temp, max_temp) VALUES(?,?,?) ", (date, mintemp, maxtemp))
     conn.commit()
     #conn.close()
 
@@ -116,32 +118,46 @@ def has_data_yesterday_today():
     return False
 
 
-def update_db(db_file, db_name):
-    #if not has_data_yesterday_today():
-    df = get_new_data()
-    conn = sqlite3.connect(db_file)
-    c = conn.cursor()
-    c.execute(" SELECT MAX(date) FROM "+ db_name+";")
-    max_date = c.fetchone()[0]
-    if not isinstance(max_date, int):
-        update_db_step(df, conn, db_name)
-    elif df.loc[df.MESS_DATUM == max_date].empty:
-        update_db_step(df, conn, db_name)
-    else:
-        df_slice = df.loc[df.MESS_DATUM > max_date]
-        update_db_step(df_slice, conn, db_name)
+def update_db(db_file, table_name):
+    if not has_data_yesterday_today():
+        df = get_new_data()
+        conn = sqlite3.connect(db_file)
+        c = conn.cursor()
+        c.execute(" SELECT MAX(date) FROM "+ table_name+";")
+        max_date = c.fetchone()[0]
+        if not isinstance(max_date, int):
+            update_db_step(df, conn, table_name)
+        elif df.loc[df.MESS_DATUM == max_date].empty:
+            update_db_step(df, conn, table_name)
+        else:
+            df_slice = df.loc[df.MESS_DATUM > max_date]
+            update_db_step(df_slice, conn, table_name)
 
 
-def update_db_step(df, conn, db_name):
+def update_db_step(df, conn, table_name):
     for _, row in df.iterrows():
-        insert_temps(None, db_name, row['MESS_DATUM'], row['TXK'], row['TNK'], conn=conn)
+        insert_temps(None, table_name, row['MESS_DATUM'], row['TNK'], row['TXK'], conn=conn)
     conn.close()
 
 
 
-def get_training_test_data(db_file, db_name):
+def get_training_test_data(db_file, table_name):
     conn = sqlite3.connect(db_file)
-    df = pd.read_sql_query("SELECT * FROM " + db_name, conn)
+    df = pd.read_sql_query("SELECT * FROM " + table_name, conn)
+    collected_max = []
+    collected_min = []
+    targets_max = []
+    targets_min = []
+    for i in range(df['date'].idxmax()-9):
+        collected_max.append(df['max_temp'][i:i+10].values)
+        collected_min.append(df['min_temp'][i:i+10].values)
+        targets_max.append(df['max_temp'][i+10])
+        targets_min.append(df['min_temp'][i+10])
+
+    collected_max, targets_max = sklearn.utils.shuffle(collected_max, targets_max)
+    collected_min, targets_min = sklearn.utils.shuffle(collected_min, targets_min)
+
+    return (collected_min, targets_min, collected_max, targets_max)
 
 
 def get_current_temperature(city_id, user_key):

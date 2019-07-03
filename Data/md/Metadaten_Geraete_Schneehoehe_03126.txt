@@ -7,5 +7,5 @@ Stations_ID;Stationsname;Geo. Laenge [Grad];Geo. Breite [Grad];Stationshoehe [m]
 3126;Magdeburg;11.58;52.1;76;2.3;20101001;20110430;Ultraschall-Schneehöhenmesser SR50-G1;Schneehöhenmessung, elektr.;eor;
 3126;Magdeburg;11.58;52.1;76;2.3;20111001;20120501;Ultraschall-Schneehöhenmesser SR50-G1;Schneehöhenmessung, elektr.;eor;
 3126;Magdeburg;11.58;52.1;76;2.3;20121011;20130430;Ultraschall-Schneehöhenmesser SR50-G1;Schneehöhenmessung, elektr.;eor;
-3126;Magdeburg;11.58;52.1;76;2.3;20131001;20190622;Schneehöhensensor SHM 30;Schneehöhenmessung, elektr.;eor;
-generiert: 24.06.2019 --  Deutscher Wetterdienst  --
+3126;Magdeburg;11.58;52.1;76;2.3;20131001;20190701;Schneehöhensensor SHM 30;Schneehöhenmessung, elektr.;eor;
+generiert: 03.07.2019 --  Deutscher Wetterdienst  --

@@ -13,4 +13,4 @@ Stations_ID;Stations_Name;Parameter;Von_Datum;Bis_Datum;Anzahl_Fehlwerte;Beschre
 3126;Magdeburg;NM;17.09.2018;17.09.2018;1;;eor;                                                                                                                                                         
 3126;Magdeburg;SHK_TAG;11.03.2018;12.03.2018;2;;eor;                                                                                                                                                    
 3126;Magdeburg;SHK_TAG;01.05.2018;01.10.2018;154;Automat: Sensor von Mai bis September nicht in Betrieb;eor;                                                                                            
-generiert: 24.06.2019 --  Deutscher Wetterdienst  --                                                                                                                                                    
+generiert: 03.07.2019 --  Deutscher Wetterdienst  --                                                                                                                                                    

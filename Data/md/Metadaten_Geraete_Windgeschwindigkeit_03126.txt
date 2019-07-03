@@ -8,5 +8,5 @@ Stations_ID;Stationsname;Geo. Laenge [Grad];Geo. Breite [Grad];Stationshoehe [m]
 3126;Magdeburg;11.58;52.1;76;18;19880301;20051108;WMG 201;Windmessung, elektr.;eor;
 3126;Magdeburg;11.58;52.1;76;15;20051108;20060405;WMG 201;Windmessung, elektr.;eor;
 3126;Magdeburg;11.58;52.1;76;15;20060406;20080605;WMG 201;Windmessung, elektr.;eor;
-3126;Magdeburg;11.58;52.1;76;15;20080605;20190622;Ultrasonic Anemometer 2D;Windmessung, elektr.;eor;
-generiert: 24.06.2019 --  Deutscher Wetterdienst  --
+3126;Magdeburg;11.58;52.1;76;15;20080605;20190701;Ultrasonic Anemometer 2D;Windmessung, elektr.;eor;
+generiert: 03.07.2019 --  Deutscher Wetterdienst  --

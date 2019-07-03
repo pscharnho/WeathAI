@@ -5,5 +5,5 @@ Stations_ID;Stationsname;Geo. Laenge [Grad];Geo. Breite [Grad];Stationshoehe [m]
 3126;Magdeburg;11.58;52.1;76;2;19921022;20050131;HYGROMER MP100;Feuchtemessung, elektr.;eor;
 3126;Magdeburg;11.58;52.1;76;2;20050131;20060405;Feuchtesonde HMP45D;Feuchtemessung, elektr.;eor;
 3126;Magdeburg;11.58;52.1;76;2;20060406;20141021;Feuchtesonde HMP45D;Feuchtemessung, elektr.;eor;
-3126;Magdeburg;11.58;52.1;76;2;20141021;20190622;EE33;Feuchtemessung, elektr.;eor;
-generiert: 24.06.2019 --  Deutscher Wetterdienst  --
+3126;Magdeburg;11.58;52.1;76;2;20141021;20190701;EE33;Feuchtemessung, elektr.;eor;
+generiert: 03.07.2019 --  Deutscher Wetterdienst  --

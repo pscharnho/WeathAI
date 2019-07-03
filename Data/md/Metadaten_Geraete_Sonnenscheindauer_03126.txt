@@ -5,5 +5,5 @@ Stations_ID;Stationsname;Geo. Laenge [Grad];Geo. Breite [Grad];Stationshoehe [m]
 3126;Magdeburg;11.58;52.1;76;12;19570322;19940105;Sonnenscheinschreiber nach Campbell-Stokes;Sonnenscheinregistrierung, konv.;eor;
 3126;Magdeburg;11.58;52.1;76;12;19930201;20060405;SONIe Sonnenenergie-Sensor;Sonnenscheindauer, elektr.;eor;
 3126;Magdeburg;11.58;52.1;76;12;20060406;20061209;SONIe Sonnenenergie-Sensor;Sonnenscheindauer, elektr.;eor;
-3126;Magdeburg;11.58;52.1;76;12;20061209;20190622;SCAPP;Sonnenscheind/Strahlungsmessung, elektr.;eor;
-generiert: 24.06.2019 --  Deutscher Wetterdienst  --
+3126;Magdeburg;11.58;52.1;76;12;20061209;20190701;SCAPP;Sonnenscheind/Strahlungsmessung, elektr.;eor;
+generiert: 03.07.2019 --  Deutscher Wetterdienst  --

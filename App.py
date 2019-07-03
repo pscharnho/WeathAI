@@ -3,40 +3,53 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import json
+import base64
+import os
 from Model import get_forecast
 from Data import get_current_temperature
 
-user_key = "afcd0a181f7c81d62b48495edd24cc61"
+
+user_key = # Enter your OWM user key
 
 
 app = dash.Dash()
 
+image_filename = os.getcwd() + '/img/WeathAI.png'#app.get_asset_url('WeathAI') # replace with your own image
+encoded_image = base64.b64encode(open(image_filename, 'rb').read())
+
 app.layout = html.Div(children=[
-    html.H1(children='WeathAI'),
+    html.Div([
+        html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()), style={'width':'50%'})
+    ], style={'textAlign': 'center', 'padding':10}),
+    #html.H1(children='WeathAI'),
 
     html.Div(children='''
         Forecasting the weather with Machine Learning.
-    '''),
+    ''', style={'textAlign': 'center', 'padding':10}),
 
-    html.Label('City'),
-    dcc.Dropdown(
-        id='dropdown_1',
-        options=[
-            {'label': 'Magdeburg', 'value': 'Magdeburg'},
-            {'label': 'Lausanne', 'value': 'Lausanne'},
-            {'label': 'San Francisco', 'value': 'San Francisco'}
-        ],
-        value='Magdeburg'
-    ),
-    html.Label('Model'),
-    dcc.Dropdown(
-        id='dropdown_2',
-        options=[
-            {'label': 'OpenWeatherMap', 'value': 'OWM'},
-            {'label': 'ML Model', 'value': 'MLM'}
-        ],
-        value='OWM'
-    ),
+    html.Div(children=[
+        html.Label('City', style={'width':'48%', 'display':'inline-block'}),
+        html.Label('Model', style={'width':'48%', 'display':'inline-block'}),
+        dcc.Dropdown(
+            id='dropdown_1',
+            options=[
+                {'label': 'Magdeburg', 'value': 'Magdeburg'},
+                {'label': 'Lausanne', 'value': 'Lausanne'},
+                {'label': 'San Francisco', 'value': 'San Francisco'}
+            ],
+            value='Magdeburg',
+            style={'width':'48%', 'display':'inline-block'}
+        ),
+        dcc.Dropdown(
+            id='dropdown_2',
+            options=[
+                {'label': 'OpenWeatherMap', 'value': 'OWM'},
+                {'label': 'SGDRegressor', 'value': 'SGDReg'},
+                {'label': 'Ridge Regressor', 'value': 'Ridge'}
+            ],
+            value='OWM',
+            style={'width':'48%', 'display':'inline-block'})
+    ], style={'textAlign': 'center'}),
     html.Div(id='output-container')
 
 ])

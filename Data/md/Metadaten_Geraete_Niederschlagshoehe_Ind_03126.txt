@@ -2,5 +2,5 @@ Stations_ID;Stationsname;Geo. Laenge [Grad];Geo. Breite [Grad];Stationshoehe [m]
 3126;Magdeburg;11.58;52.1;76;1;19930101;20060405;NG 200;Niederschlagsdauer, -menge, elektr.;eor;
 3126;Magdeburg;11.58;52.1;76;1;19950509;20060405;Niederschlags-Detektor;Niederschlagsdauer, elektr.;eor;
 3126;Magdeburg;11.58;52.1;76;1;20060406;20160803;Niederschlags-Detektor;Niederschlagsdauer, elektr.;eor;
-3126;Magdeburg;11.58;52.1;76;1;20160803;20190622;Niederschlagswächter;Niederschlagsdauer, elektr.;eor;
-generiert: 24.06.2019 --  Deutscher Wetterdienst  --
+3126;Magdeburg;11.58;52.1;76;1;20160803;20190701;Niederschlagswächter;Niederschlagsdauer, elektr.;eor;
+generiert: 03.07.2019 --  Deutscher Wetterdienst  --

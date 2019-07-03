@@ -2,5 +2,5 @@ Stations_ID;Stationsname;Geo. Laenge [Grad];Geo. Breite [Grad];Stationshoehe [m]
 3126;Magdeburg;;;;;18810101;19460630;Gerätetyp unbekannt;Temperaturmessung, konv.;eor;
 3126;Magdeburg;11.58;52.1;76;2;19460701;20060405;Psychrometerthermometer (trocken);Temperaturmessung, konv.;eor;
 3126;Magdeburg;11.58;52.1;76;2;19750409;20060405;PT 100 (Luft);Temperaturmessung, elektr.;eor;
-3126;Magdeburg;11.58;52.1;76;2;20060406;20190622;PT 100 (Luft);Temperaturmessung, elektr.;eor;
-generiert: 24.06.2019 --  Deutscher Wetterdienst  --
+3126;Magdeburg;11.58;52.1;76;2;20060406;20190701;PT 100 (Luft);Temperaturmessung, elektr.;eor;
+generiert: 03.07.2019 --  Deutscher Wetterdienst  --

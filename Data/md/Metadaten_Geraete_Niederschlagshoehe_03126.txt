@@ -3,5 +3,5 @@ Stations_ID;Stationsname;Geo. Laenge [Grad];Geo. Breite [Grad];Stationshoehe [m]
 3126;Magdeburg;11.58;52.1;76;1;19460601;20060405;Hellmann;Niederschlagsmenge, konv.;eor;
 3126;Magdeburg;11.58;52.1;76;1;19930101;20060405;NG 200, Tröpfchenzähler;Niederschlagsdauer, -menge, elektr.;eor;
 3126;Magdeburg;11.58;52.1;76;1;20060405;20060405;PLUVIO;Niederschlagsmenge, elektr.;eor;
-3126;Magdeburg;11.58;52.1;76;1;20060406;20190622;PLUVIO;Niederschlagsmenge, elektr.;eor;
-generiert: 24.06.2019 --  Deutscher Wetterdienst  --
+3126;Magdeburg;11.58;52.1;76;1;20060406;20190701;PLUVIO;Niederschlagsmenge, elektr.;eor;
+generiert: 03.07.2019 --  Deutscher Wetterdienst  --
