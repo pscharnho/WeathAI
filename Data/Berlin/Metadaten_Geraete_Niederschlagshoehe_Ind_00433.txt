@@ -1,0 +1,5 @@
+Stations_ID;Stationsname;Geo. Laenge [Grad];Geo. Breite [Grad];Stationshoehe [m];Geberhoehe ueber Grund [m];Von_Datum;Bis_Datum;Geraetetyp Name;Messverfahren;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;1;19950125;20081127;NG 200;Niederschlagsdauer, -menge, elektr.;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;1;20081127;20170719;Niederschlags-Detektor;Niederschlagsdauer, elektr.;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;1;20170719;20190702;Niederschlagswächter;Niederschlagsdauer, elektr.;eor;
+generiert: 04.07.2019 --  Deutscher Wetterdienst  --

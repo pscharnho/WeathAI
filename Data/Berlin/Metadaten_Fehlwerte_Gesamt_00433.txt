@@ -1,0 +1,7 @@
+Stations_ID;Stations_Name;Parameter;Von_Datum;Bis_Datum;Gesamt_Fehlwerte;Beschreibung;eor;                                                                                                              
+433;Berlin-Tempelhof;PM;01.01.1948;03.07.2019;19;Gesamt_Messzeitraum;eor;                                                                                                                               
+433;Berlin-Tempelhof;FM;01.01.1974;03.07.2019;92;Gesamt_Messzeitraum;eor;                                                                                                                               
+433;Berlin-Tempelhof;FX;01.01.1974;02.07.2019;81;Gesamt_Messzeitraum;eor;                                                                                                                               
+433;Berlin-Tempelhof;UPM;01.01.1948;03.07.2019;26;Gesamt_Messzeitraum;eor;                                                                                                                              
+433;Berlin-Tempelhof;VPM;01.01.1948;03.07.2019;26;Gesamt_Messzeitraum;eor;                                                                                                                              
+433;Berlin-Tempelhof;SDK;17.11.1970;03.07.2019;1;Gesamt_Messzeitraum;eor;                                                                                                                               

@@ -1,0 +1,9 @@
+Stations_ID;Stationsname;Geo. Laenge [Grad];Geo. Breite [Grad];Stationshoehe [m];Geberhoehe ueber Grund [m];Von_Datum;Bis_Datum;Geraetetyp Name;Messverfahren;eor;
+3126;Magdeburg;;;;;18810101;19480604;Gerätetyp unbekannt;Feuchteregistrieung, konv.;eor;
+3126;Magdeburg;11.58;52.1;76;2;19460801;19470131;Thermohygrograph;Temperatur- und Feuchtereg., konv.;eor;
+3126;Magdeburg;11.58;52.1;76;2;19480605;20060405;Hygrograph nach Frankenberg;Feuchteregistrieung, konv.;eor;
+3126;Magdeburg;11.58;52.1;76;2;19921022;20050131;HYGROMER MP100;Feuchtemessung, elektr.;eor;
+3126;Magdeburg;11.58;52.1;76;2;20050131;20060405;Feuchtesonde HMP45D;Feuchtemessung, elektr.;eor;
+3126;Magdeburg;11.58;52.1;76;2;20060406;20141021;Feuchtesonde HMP45D;Feuchtemessung, elektr.;eor;
+3126;Magdeburg;11.58;52.1;76;2;20141021;20190702;EE33;Feuchtemessung, elektr.;eor;
+generiert: 04.07.2019 --  Deutscher Wetterdienst  --

@@ -1,0 +1,9 @@
+Stations_ID;Stationsname;Geo. Laenge [Grad];Geo. Breite [Grad];Stationshoehe [m];Geberhoehe ueber Grund [m];Von_Datum;Bis_Datum;Geraetetyp Name;Messverfahren;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;3.7;19701117;20081127;Sonnenscheinschreiber nach Campbell-Stokes;Sonnenscheinregistrierung, konv.;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;3.7;19950125;20081125;SONIe Sonnenenergie-Sensor;Sonnenscheindauer, elektr.;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;3.7;20081125;20101124;SCAPP;Sonnenscheind/Strahlungsmessung, elektr.;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;3.7;20101129;20110603;SCAPP;Sonnenscheind/Strahlungsmessung, elektr.;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;3.7;20110617;20140708;SCAPP;Sonnenscheind/Strahlungsmessung, elektr.;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;3.7;20140722;20141003;SCAPP;Sonnenscheind/Strahlungsmessung, elektr.;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;3.7;20141016;20190702;SCAPP;Sonnenscheind/Strahlungsmessung, elektr.;eor;
+generiert: 04.07.2019 --  Deutscher Wetterdienst  --

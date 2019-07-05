@@ -1,0 +1,6 @@
+Stations_ID;Stationsname;Geo. Laenge [Grad];Geo. Breite [Grad];Stationshoehe [m];Geberhoehe ueber Grund [m];Von_Datum;Bis_Datum;Geraetetyp Name;Messverfahren;eor;
+1981;Hamburg-Neuwiedenthal;9.9;53.48;2.5;.05;19620501;19800626;Minimumthermometer;Temperaturmessung, konv.;eor;
+1981;Hamburg-Neuwiedenthal;9.9;53.48;2.5;.05;19800627;20050228;Minimumthermometer;Temperaturmessung, konv.;eor;
+1981;Hamburg-Neuwiedenthal;9.9;53.48;2.5;.05;20050215;20050228;PT 100 (Luft);Temperaturmessung, elektr.;eor;
+1981;Hamburg-Neuwiedenthal;9.9;53.48;3;.05;20050301;20190702;PT 100 (Luft);Temperaturmessung, elektr.;eor;
+generiert: 04.07.2019 --  Deutscher Wetterdienst  --

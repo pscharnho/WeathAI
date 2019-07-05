@@ -1,0 +1,4 @@
+Stations_ID;Stations_Name;Parameter;Von_Datum;Bis_Datum;Anzahl_Fehlwerte;Beschreibung;eor;                                                                                                              
+3379;München-Stadt;NM;11.05.2018;11.05.2018;1;;eor;                                                                                                                                                     
+3379;München-Stadt;SHK_TAG;01.05.2018;02.10.2018;155;Automat: Sensor von Mai bis September nicht in Betrieb;eor;                                                                                        
+generiert: 04.07.2019 --  Deutscher Wetterdienst  --                                                                                                                                                    

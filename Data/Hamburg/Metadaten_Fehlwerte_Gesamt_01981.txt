@@ -1,0 +1,6 @@
+Stations_ID;Stations_Name;Parameter;Von_Datum;Bis_Datum;Gesamt_Fehlwerte;Beschreibung;eor;                                                                                                              
+1981;Hamburg-Neuwiedenthal;TMK;01.05.1962;03.07.2019;3;Gesamt_Messzeitraum;eor;                                                                                                                         
+1981;Hamburg-Neuwiedenthal;TGK;01.05.1962;03.07.2019;5;Gesamt_Messzeitraum;eor;                                                                                                                         
+1981;Hamburg-Neuwiedenthal;UPM;01.05.1962;03.07.2019;5;Gesamt_Messzeitraum;eor;                                                                                                                         
+1981;Hamburg-Neuwiedenthal;VPM;01.05.1962;03.07.2019;5;Gesamt_Messzeitraum;eor;                                                                                                                         
+1981;Hamburg-Neuwiedenthal;SHK_TAG;01.05.1962;30.04.2019;1071;Gesamt_Messzeitraum;eor;                                                                                                                  

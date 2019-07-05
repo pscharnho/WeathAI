@@ -1,0 +1,8 @@
+Stations_ID;Stationsname;Geo. Laenge [Grad];Geo. Breite [Grad];Stationshoehe [m];Geberhoehe ueber Grund [m];Von_Datum;Bis_Datum;Geraetetyp Name;Messverfahren;eor;
+1981;Hamburg-Neuwiedenthal;9.9;53.48;2.5;2;19620501;19800626;Hygrograph nach Frankenberg;Feuchteregistrieung, konv.;eor;
+1981;Hamburg-Neuwiedenthal;9.9;53.48;2.5;2;19800627;19951130;Hygrograph nach Frankenberg;Feuchteregistrieung, konv.;eor;
+1981;Hamburg-Neuwiedenthal;9.9;53.48;2.5;2;19951101;20050228;Thermohygrograph;Temperatur- und Feuchtereg., konv.;eor;
+1981;Hamburg-Neuwiedenthal;9.9;53.48;2.5;2;20050215;20050228;Feuchtesonde HMP45D;Feuchtemessung, elektr.;eor;
+1981;Hamburg-Neuwiedenthal;9.9;53.48;3;2;20050301;20150914;Feuchtesonde HMP45D;Feuchtemessung, elektr.;eor;
+1981;Hamburg-Neuwiedenthal;9.9;53.48;3;2;20150915;20190702;EE33;Feuchtemessung, elektr.;eor;
+generiert: 04.07.2019 --  Deutscher Wetterdienst  --

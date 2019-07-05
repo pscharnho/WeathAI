@@ -1,0 +1,11 @@
+Stations_ID;Stationsname;Geo. Laenge [Grad];Geo. Breite [Grad];Stationshoehe [m];Geberhoehe ueber Grund [m];Von_Datum;Bis_Datum;Geraetetyp Name;Messverfahren;eor;
+433;Berlin-Tempelhof;13.39;52.48;48.7;1.1;19480101;19510228;Hellmann;Niederschlagsmenge, konv.;eor;
+433;Berlin-Tempelhof;13.39;52.48;48;1.1;19510301;19570430;Hellmann;Niederschlagsmenge, konv.;eor;
+433;Berlin-Tempelhof;13.42;52.47;48;1;19570501;19700909;Hellmann;Niederschlagsmenge, konv.;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;1;19700910;20081127;Hellmann;Niederschlagsmenge, konv.;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;1;19950125;20081127;NG 200, Tröpfchenzähler;Niederschlagsdauer, -menge, elektr.;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;1;20081127;20121121;PLUVIO;Niederschlagsmenge, elektr.;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;1;20121123;20130411;PLUVIO;Niederschlagsmenge, elektr.;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;1;20130418;20130818;PLUVIO;Niederschlagsmenge, elektr.;eor;
+433;Berlin-Tempelhof;13.4;52.47;48;1;20130821;20190702;PLUVIO;Niederschlagsmenge, elektr.;eor;
+generiert: 04.07.2019 --  Deutscher Wetterdienst  --
