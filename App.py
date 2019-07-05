@@ -10,7 +10,7 @@ import dash_html_components as html
 from Data import get_current_temperature
 from Model import get_forecast
 
-user_key = "afcd0a181f7c81d62b48495edd24cc61"  # Enter your OWM user key
+user_key =   # Enter your OWM user key
 
 
 app = dash.Dash()
