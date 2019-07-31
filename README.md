@@ -19,7 +19,7 @@ The weather data source is [Deutscher Wetterdienst](https://www.dwd.de).
 
 ### Use of the App:
 
-For using the app a valid API key form [OpenWeather](https://openweathermap.org/appid) is required. Enter this key as a string as user_key in the document App.py.
+For using the app a valid API key from [OpenWeather](https://openweathermap.org/appid) is required. Enter this key as a string as user_key in the document App.py.
 
 ### How it should look:
 
